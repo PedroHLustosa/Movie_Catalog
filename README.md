@@ -2,7 +2,7 @@
 
 ## 📽️ Descrição do Projeto
 
-Movie Catalog é um aplicativo Android desenvolvido em Kotlin que funciona como um catálogo de filmes, similar ao Letterboxd. O aplicativo demonstra a implementação prática de conceitos fundamentais de desenvolvimento Android.
+Movie Catalog é um aplicativo Android desenvolvido em Kotlin que funciona como um catálogo de filmes. O aplicativo demonstra a implementação prática de conceitos fundamentais de desenvolvimento Android.
 
 ## ✨ Conceitos Implementados
 
@@ -49,48 +49,7 @@ Demonstrado através de Logs em cada Fragment e Activity:
 - Procure por "Fragment" ou "MainActivity"
 - Mude entre as abas para ver os logs de cada evento
 
-## 📁 Estrutura do Projeto
 
-```
-movie-catalog/
-├── app/
-│   ├── src/main/
-│   │   ├── java/com/example/moviecatalog/
-│   │   │   ├── MainActivity.kt
-│   │   │   ├── adapter/
-│   │   │   │   └── MovieAdapter.kt
-│   │   │   ├── data/
-│   │   │   │   └── MovieRepository.kt
-│   │   │   ├── model/
-│   │   │   │   └── Movie.kt
-│   │   │   └── ui/
-│   │   │       ├── about/
-│   │   │       │   └── AboutFragment.kt
-│   │   │       ├── catalog/
-│   │   │       │   └── CatalogFragment.kt
-│   │   │       └── favorites/
-│   │   │           └── FavoritesFragment.kt
-│   │   ├── res/
-│   │   │   ├── drawable/
-│   │   │   │   └── rounded_background.xml
-│   │   │   ├── layout/
-│   │   │   │   ├── activity_main.xml
-│   │   │   │   ├── fragment_catalog.xml
-│   │   │   │   ├── fragment_favorites.xml
-│   │   │   │   ├── fragment_about.xml
-│   │   │   │   └── item_movie.xml
-│   │   │   ├── menu/
-│   │   │   │   └── bottom_nav_menu.xml
-│   │   │   └── values/
-│   │   │       ├── colors.xml
-│   │   │       ├── strings.xml
-│   │   │       └── themes.xml
-│   │   └── AndroidManifest.xml
-│   └── build.gradle
-├── build.gradle
-├── settings.gradle
-└── gradle.properties
-```
 
 ## 🚀 Como Executar
 
